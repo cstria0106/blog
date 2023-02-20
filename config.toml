@@ -1,7 +1,7 @@
 baseURL = 'https://goorm.me'
 defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = true
-title = 'Goorm.me'
+title = 'goorm.me'
 theme = "paper-mod"
 enableEmoji = true
 
@@ -13,25 +13,25 @@ outputs.home = ["HTML", "RSS", "JSON"]
 comments = true
 
 [params.homeInfoParams]
-Title = "☁ Goorm.me ☁"
-Content = "본명 이상엽, 구름입니다. 백엔드, 응용프로그램, 서버 개발자입니다."
+Title = "goorm.me"
+Content = "My name is Lee Sangyeop, and I love computer."
 
 [[menu.main]]
-name = "아카이브"
-url = "archives"
+name = "History"
+url = "history"
 weight = 1
 
 [[menu.main]]
-name = "카테고리"
+name = "Categories"
 url = "categories"
 weight = 2
 
 [[menu.main]]
-name = "태그"
+name = "Tags"
 url = "tags"
 weight = 3
 
 [[menu.main]]
-name = "검색"
+name = "Search"
 url = "search"
 weight = 4
